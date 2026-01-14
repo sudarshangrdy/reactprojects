@@ -1,0 +1,43 @@
+## React JS
+
+* Open a new browser and type *react.new*, it will create codesandbox for react js app.
+
+* Component in React is a function which will return JSX which what the component will display, it is similar to html.
+
+* Component name should be starting with Upper Case.
+
+* Install Node JS
+
+* ESLint, Material ICON and Prettier, ES7+ React/Redux/React-Native snippets, Tailwind CSS IntelliSense, Quokka, React Developer Tools
+
+* Settings:
+
+eslint run --> On Save
+
+Default Formatter --> Premitter
+
+Format on Save --> Tick
+
+Auto Save --> On Focus Change
+
+* Add the React Snipptes Provided
+
+* Node.js serves as the runtime environment required to build, bundle, and develop React applications locally, since React (a frontend library) runs in the browser but needs server-side processing during development.
+
+* Command to create project *npx create-react-app@5 02-pizza-menu*
+
+* To start the *npm run start*
+
+* Now delete all the files in src folder.
+
+* Now create a file index.js, it should be same as webpack which is module bundlar expects this name and is the entry point.
+
+* *<React.StrictMode>* is used for Double rendering - In development, components may render twice to help detect side effects. This is intentional and normal.
+
+* When defining the inline CSS, the vaule should be in JS Object type and it has JS convention naming not the CSS naming.
+
+[source, JS]
+----
+const style = { color: "red", fontSize: "48px", textTransform: "uppercase" };
+return <h1 style={style}>Fast React Pizza Co.</h1>;
+----
